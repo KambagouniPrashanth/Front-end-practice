@@ -1,0 +1,46 @@
+.red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    z-index: 1;
+}
+.blue{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    top:0px;
+    left:25px;
+    /* z-index: 2; */
+
+}
+/* input{
+    position: relative;
+ 
+    top: 220px;
+}
+.btn+.blue{
+    z-index:3;
+    /* top: 10px;
+    left: 49px; 
+} */
+
+.btn{
+    padding: 2px 5px;
+    border: 2px solid black;
+    border-radius: 20px ;
+    background-color: mediumslateblue;
+    position: relative;
+ 
+    top: 220px;
+
+}
+.btn:hover+.blue{
+    z-index: 3;
+
+
+
+}

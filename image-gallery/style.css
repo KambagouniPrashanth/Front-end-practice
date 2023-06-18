@@ -1,0 +1,19 @@
+.row{
+    display: flex;
+    gap: 20px
+
+}
+.col img{
+    width: 95%;
+    border: 0.4rem solid #555;
+    border-radius: 11%;
+    /* height: 80%; */
+}
+.col img:hover{
+    /* z-index: 10; */
+    width: 110%;
+    height: 110%;
+    transform: translateY(-10%);
+    
+    transition: width 300ms linear 1s;  /* property duriation linear delay*/
+}

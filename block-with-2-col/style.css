@@ -1,0 +1,22 @@
+ body{
+    background-color: aqua;
+}
+.container{
+    position: relative;
+    top: 75px;
+    left: 267px;
+}
+.row{
+    display: flex;
+   
+}
+.block1{
+    width: 357px;
+    height: 100px;
+    border: 2px solid black;
+}
+.block1 p{
+    font-size: 20px;
+    padding: 10px 73px;
+} 
+

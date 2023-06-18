@@ -1,0 +1,53 @@
+
+h1{
+   
+    margin-left: 13%;
+    color: mediumblue;
+}
+div{
+    margin-left: 5%;
+}
+input{
+    width: 50%;
+    
+}
+input:focus{
+    outline: 2px solid mediumblue;
+}
+.container{
+    display: flex;
+    gap:30%;
+    margin-left: 0%;
+}
+.container label{
+    font-size: 20px;
+}
+.container input{
+    width:309%;
+    
+}
+.container input:focus{
+    outline: 2px solid mediumblue;
+
+    
+}
+label{
+    font-size: 20px;
+}
+button{
+    background-color:mediumslateblue;
+    font-size: 15px;
+    padding: 4px 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+@media screen and (min-width:576px) and (max-width:719px) {
+    .container{
+        flex-direction: column;
+    }
+    .container input{
+        width: 50%;
+    }
+    
+}

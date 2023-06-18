@@ -1,0 +1,23 @@
+.carousel-indicators [data-bs-target] {
+   
+    width: 8px!important;
+    height: 13px!important;
+    border: 1px;
+    border-radius: 50%;
+
+   
+    
+   
+   
+}
+.carousel-control-prev-icon{
+    width: 4rem!important;
+    height: 4rem!important;
+    
+}
+.carousel-control-next-icon{
+    width: 4rem!important;
+    height: 4rem!important;
+    
+
+}

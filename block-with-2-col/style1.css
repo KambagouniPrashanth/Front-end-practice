@@ -1,0 +1,20 @@
+body{
+    background-color: aqua;
+}
+
+table {
+    text-align: center;
+    position: relative;
+    top: 49px;
+    left: 317px;
+}
+table,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td{
+    width: 312px;
+    height: 124px;
+    font-size: 20px;
+    
+}

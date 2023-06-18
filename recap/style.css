@@ -1,0 +1,116 @@
+/* 
+div input{
+    display:none;
+}
+div label{
+    position: relative;
+    top:0px;
+    left:0px;
+    width: 100px;
+    height: 50px;
+    display: block;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: white;
+    transition: background 300ms linear;
+    
+}
+
+div label::before{
+    position: absolute;
+    top:1px;
+    left:0px;
+    width: 45px;
+
+    height: 45px;
+    content: "";
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: aliceblue;
+    background-color: white;
+   
+
+
+
+}
+div input:checked+label{
+    background-color: skyblue;
+}
+div input:checked+label::before{
+    left:50px;
+    transition: left 0.5s linear;
+
+}
+
+toggle button ended
+ */
+
+ .container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(105,105,105);
+    font-size: 20px;
+    padding: 10px;
+ }
+.container a{
+    text-decoration: none;
+    
+    color:white;
+    
+}
+.container div{
+    padding:2px 10px;
+    font-size: 20px;
+}
+.container div:hover{
+    background-color:black;
+}
+/* .dropdown{
+    position: relative;
+} */
+
+ .dropdown-btn{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color:white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(105,105,105);
+    font-family: inherit;
+    padding: 0px 2px;
+    z-index: 1;
+    
+
+}
+.dropdown-content .item a{
+    padding: 5px 10px;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* .dropdown-btn:hover{
+    background-color: burlywood;
+    
+    
+} */
+.dropdown:hover .dropdown-content{
+
+    display: flex;
+    flex-direction: column;
+
+}
+.dropdown-content .item:hover{
+    cursor: pointer;
+    background-color:maroon;
+    
+
+}
+
