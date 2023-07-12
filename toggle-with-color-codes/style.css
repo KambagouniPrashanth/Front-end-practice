@@ -38,9 +38,23 @@
     top: 220px;
 
 }
-.btn:hover+.blue{
+.zindexblue{
     z-index: 3;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    top:0px;
+    left:25px;
 
 
-
+   
 }
+
+/* .btn:hover+.blue{
+    z-index: 3;
+    transition: z-index 3s 3s;
+
+
+
+} */
